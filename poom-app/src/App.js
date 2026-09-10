@@ -9,6 +9,7 @@ import About from './page/About';
 import {Routes, Route} from 'react-router-dom';
 import MovieDetail from './component/MovieDetail';
 import NotFound from './page/NotFound';
+import MovieCard from './component/MovieCard';
 
 
 // const members = [
