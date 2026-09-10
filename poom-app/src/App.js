@@ -10,7 +10,7 @@ import {Routes, Route} from 'react-router-dom';
 import MovieDetail from './component/MovieDetail';
 import NotFound from './page/NotFound';
 import MovieCard from './component/MovieCard';
-
+import MovieGallery from './component/MovieGallery';
 
 // const members = [
 //   { id: 1, name: 'ณัฐภูมิ เนืองเนตร', nickname: 'ภูมิ',

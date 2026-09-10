@@ -2,6 +2,7 @@ import React from "react";
 //import {Link} from 'react-router-dom'
 import { movies } from "../data/data";
 import MovieCard from "../component/MovieCard";
+import MovieGallery from "../component/MovieGallery";
 
 function Home() {
   return (
@@ -10,9 +11,13 @@ function Home() {
       <p className="mt-2 text-slate-500">ยินดีต้อนรับสู่ MovieHub</p>
       <h2 className="mt-8 text-2xl front-bold text-stone-800">หนังแนะนำ</h2>
       <div className="mx-auto mt-8 max-w-5xl">
+        {movies.slice(0,3).map(m=>(
         <MovieCard title="InThe Mandalorian and Grogu" year={2026}/>
+        ))}
         </div>
-    </div>
+        <h2 className="mt-8 text-2xl from-black text-slate-800">ดูหนังเพิ่มเติม</h2>
+          <MovieGallery/>
+        </div>
   );
 }
 
